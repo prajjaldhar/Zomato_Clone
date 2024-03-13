@@ -1,0 +1,31 @@
+// placeData.js
+const PlaceData = [
+  { name: "Baner", places: 536 },
+  { name: "Viman Nagar", places: 530 },
+  { name: "Hinjawadi", places: 901 },
+  { name: "Koregaon Park", places: 196 },
+  { name: "Wakad", places: 727 },
+  { name: "Kothrud", places: 655 },
+  { name: "Kalyani Nagar", places: 134 },
+  { name: "Kharadi", places: 631 },
+  { name: "Baner", places: 536 },
+  { name: "Viman Nagar", places: 530 },
+  { name: "Hinjawadi", places: 901 },
+  { name: "Koregaon Park", places: 196 },
+  { name: "Wakad", places: 727 },
+  { name: "Kothrud", places: 655 },
+  { name: "Kalyani Nagar", places: 134 },
+  { name: "Kharadi", places: 631 },
+  { name: "Hadapsar", places: 294 },
+  { name: "Malleshwaram", places: 313 },
+  { name: "BTM", places: 989 },
+  { name: "MG Road", places: 74 },
+  { name: "Kalyani Nagar", places: 134 },
+  { name: "Kharadi", places: 631 },
+  { name: "Hadapsar", places: 294 },
+  { name: "Malleshwaram", places: 313 },
+  { name: "BTM", places: 989 },
+  { name: "MG Road", places: 74 },
+];
+
+export default PlaceData;

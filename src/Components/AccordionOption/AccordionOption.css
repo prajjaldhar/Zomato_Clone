@@ -1,0 +1,74 @@
+.sec-6 {
+    margin-bottom: 110px;
+}
+
+.sec-6 h1 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+    margin-left: 30px;
+
+}
+
+.box-3 {
+    border: 1px solid rgb(225, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 1000px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.box-3 div {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.box-3 div span {
+    color: rgb(65, 64, 64);
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.box-3 i {
+    font-size: 13px;
+}
+
+.accordion {
+    border: 1px solid rgb(225, 233, 233);
+    box-shadow: 0 8px 5px rgb(226, 223, 223);
+    overflow: hidden;
+    border-radius: 12px;
+    border-color: transparent;
+    margin: 30px;
+    width: 65rem;
+}
+
+.accordion-header {
+    color: rgb(65, 64, 64);
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Custom style for the active (expanded) accordion button */
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: transparent !important;
+    /* Set background-color to transparent */
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+}

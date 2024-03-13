@@ -1,0 +1,53 @@
+.box-1 {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.box-1:hover {
+    transform: scale(1.05);
+    /* Apply a scale transform on hover */
+}
+
+.box-1 div {
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.box-1 div span:first-child {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.box-1 i {
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.box-1 img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}

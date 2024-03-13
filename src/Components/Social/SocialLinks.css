@@ -1,0 +1,17 @@
+.box-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4 i {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.box-4 img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
